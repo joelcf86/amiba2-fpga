@@ -1,0 +1,9 @@
+run
+-ifn blink.prj
+-ifmt MIXED
+-ofn blink
+-ofmt NGC
+-p xc6slx9-2ftg256
+-top blink
+-opt_mode Speed
+-opt_level 1

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Programador de FPGA via Docker (no requiere sudo).
+# Uso: ~/fpga/oload -c ft2232 diseno.bit
+exec docker run --rm --privileged \
+  -v /dev/bus/usb:/dev/bus/usb \
+  -v "$PWD":/work:ro -w /work \
+  fpgaload "$@"

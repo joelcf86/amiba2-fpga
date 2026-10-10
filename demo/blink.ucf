@@ -1,0 +1,8 @@
+# AMIBA 2 - XC6SLX9-2FTG256
+# Oscilador 50 MHz
+NET "clk"   LOC = E7;
+
+# LEDs D1 (cátodo común, activo en alto)
+NET "led_r" LOC = N1;
+NET "led_g" LOC = P1;
+NET "led_b" LOC = M4;

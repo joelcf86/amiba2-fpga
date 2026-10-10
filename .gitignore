@@ -1,0 +1,9 @@
+*.ngc
+*.ngd
+*.ncd
+*.pcf
+*.bit
+*.log
+*.bld
+.Xil/
+xst/
